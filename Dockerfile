@@ -1,6 +1,6 @@
 # docker run --rm -it \
 #        -v /tmp/.X11-unix/:/tmp/.X11-unix \
-#        -e DISPLAY=unix$DISPLAY \
+#        -e DISPLAY=$DISPLAY \
 #        -v $HOME/.config/Signal:/home/signal/.config/Signal \ 
 #        --name signal signal-desktop
 
