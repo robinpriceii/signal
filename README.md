@@ -3,7 +3,8 @@ Dockerfile for running signal-desktop inside a container.
 
 # build
 Steps to manually build and run
-```git clone https://www.github.com/robinpriceii/signal
+```
+git clone https://www.github.com/robinpriceii/signal
 cd signal
 docker build -t signal .
 ```
