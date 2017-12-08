@@ -34,3 +34,4 @@ docker run --rm -it \
         --name signal \ 
         rprice/signal
 ```
+Wayland doesn't have $XAUTHORITY.  Leave this volume mount off if not using `xorg`.
